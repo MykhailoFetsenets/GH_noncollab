@@ -1,4 +1,8 @@
-def main():
-    print("Hello World!")
+def hello_world(city):
+    print(f"Heloo World from {city}")
 
-    main()
+def main():
+    hello_world('NYC')
+
+
+main()
